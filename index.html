@@ -25,7 +25,7 @@
 
 <body>
 
-    <header>
+    <header class="banner" >
         <!-- navber -->
         <nav>
             <div class="navbar">
@@ -73,7 +73,7 @@
                   <li><a href="#">Case Studies</a></li>
                   <li><a href="#">Career</a></li>
                   <li><a href="#">About Us</a></li>
-                  <li><a href="#">CONTACT US</a></li>
+                  <li><a href="#">Contact Us</a></li>
                 </ul>
               </div>
               <div class="search-box" id="search-box">
@@ -83,8 +83,24 @@
                 </div>
               </div>
             </div>
-          </nav>
+        </nav>
         <!-- navber -->
+
+
+        <!-- banner -->
+        <section >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="bannerMSG d-flex align-items-center">
+                  
+                    <h1 class="banner_msg">We Work With Latest Technology <br> to Accelerate Your <br> <span class="fw-bolder type"></span> </h1>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </header>
 
 
@@ -92,8 +108,19 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
     <!-- custom_js -->
     <script src="./script.js"></script>
+    
+    <script>
+      var typed = new Typed('.type', {
+        strings: ['Digital Transmission.'],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop:true
+      });
+    </script>
 </body>
 
 </html>
