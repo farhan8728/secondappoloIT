@@ -1,4 +1,6 @@
 // search-box open close js code
+
+
 let navbar = document.querySelector(".navbar");
 let searchBox = document.querySelector(".search-box .bx-search");
 // let searchBoxCancel = document.querySelector(".search-box .bx-x");
@@ -38,25 +40,17 @@ jsArrow.onclick = function () {
 };
 
 
-var swiper = new Swiper(".mySwiper", {
-  effect: "cards",
-  grabCursor: true,
-  });
-
-//Typed_JS
-var typed = new Typed(".type", {
-  strings: ["Digital Transmission."],
-  typeSpeed: 60,
-  backSpeed: 60,
-  loop: true,
-});
-//Typed_JS
-
-//Counter_UP
 $(".counter").counterUp({
   delay: 10,
   time: 1000,
 });
+
+//Typed_JS
+
+//Typed_JS
+
+//Counter_UP
+
 //Counter_UP
 
 
