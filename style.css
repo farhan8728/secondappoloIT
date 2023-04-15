@@ -337,7 +337,7 @@ nav .navbar .links li:hover .js-sub-menu {
 /* banner */
 
 
-
+/* counter_start */
 .hero{
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -366,10 +366,10 @@ nav .navbar .links li:hover .js-sub-menu {
   align-items: center;
   border-radius: 50%;
 }
+/* counter_end */
 
 
-
-
+/* client_start */
 .client p{
   font-size: 20px;
   letter-spacing: 1px;
@@ -385,7 +385,7 @@ nav .navbar .links li:hover .js-sub-menu {
   
   border-radius: 10px;
 }
-
+/* client_finish */
 
 
 
@@ -399,12 +399,12 @@ nav .navbar .links li:hover .js-sub-menu {
   width: 100%;
   height: 65%;
 }
+/* tecnology */
 
 
 
 
-
-
+/* footer_start */
 .footer{
   background-color: #3e8da8;
   width: 100%;
@@ -430,7 +430,7 @@ a{
 .footer_item:hover{
   color: #fff;
 }
-
+/* footer_end */
 
 @media screen and (max-width:767px){
   /* banner */
