@@ -38,6 +38,11 @@ jsArrow.onclick = function () {
 };
 
 
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+  });
+
 //Typed_JS
 var typed = new Typed(".type", {
   strings: ["Digital Transmission."],
@@ -53,3 +58,5 @@ $(".counter").counterUp({
   time: 1000,
 });
 //Counter_UP
+
+
