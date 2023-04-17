@@ -197,7 +197,7 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 }
 @media (max-width: 800px) {
-  .logo{
+  .logo {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -308,56 +308,49 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 }
 
-
-
-#search-box{
+#search-box {
   display: none;
 }
 
-
 /* banner */
-.banner{
-  background-image: url('./images/11.jpg');
+.banner {
+  background-image: url("./images/11.jpg");
   background-repeat: no-repeat;
-  
+
   width: 100%;
   height: 95vh;
   background-size: cover;
 }
 
-.banner_msg{
+.banner_msg {
   letter-spacing: 3px;
   line-height: 60px;
   color: #fff;
-  
 }
-.bannerMSG{
+.bannerMSG {
   height: 100vh;
 }
 /* banner */
 
-
 /* counter_start */
-.hero{
+.hero {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
-.hero h4{
+.hero h4 {
   color: #3e8da8;
   font-weight: 500;
   font-size: 32px;
 }
 
-.herofirstItem{
- 
-  
+.herofirstItem {
 }
-.herofirstItem i{
+.herofirstItem i {
   font-size: 28px;
 }
 
-.herofirstItemicon{
+.herofirstItemicon {
   background-color: #3e8da8;
   width: 60px;
   height: 60px;
@@ -368,151 +361,195 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 /* counter_end */
 
-
 /* client_start */
-.client p{
+.client p {
   font-size: 20px;
   letter-spacing: 1px;
-  
 }
-.videoclient{
+.videoclient {
   padding: 40px;
-  
 }
-.testi_video{
-  background: rgb(156,195,178);
-  background: linear-gradient(90deg, rgba(156,195,178,1) 0%, rgba(62,141,168,1) 100%);
-  
+.testi_video {
+  background: rgb(156, 195, 178);
+  background: linear-gradient(
+    90deg,
+    rgba(156, 195, 178, 1) 0%,
+    rgba(62, 141, 168, 1) 100%
+  );
+
   border-radius: 10px;
 }
 /* client_finish */
 
 
+/* Project */
 
-/* tecnology */
-.partner_items_pic{
-  width: 200px !important;
+.cards{
+    
+  position: relative;
 }
 
 
-.send_pic{
+.sliderProject{
+  background-color: darkcyan;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  max-width: 250px;
+  width: 250px;
+  height: 0;
+  overflow: hidden;
+  transition: .7s;
+}
+
+.cards:hover .sliderProject{
+  height: 100%;
+  /* top: 0; */
+  bottom: 0;
+  opacity: .7;
+}
+
+.click_me{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.click_me:hover{
+  color: #ffff;
+  font-weight: 700;
+}
+.click_me_img{
+  max-width: 250px;
+  width: 250px;
+  max-height: 250px;
+  height: 200px;
+}
+
+
+
+
+
+/* tecnology */
+.partner_items_pic {
+  width: 200px !important;
+}
+
+.send_pic {
   width: 100%;
   height: 65%;
 }
 /* tecnology */
 
-
-
-
 /* footer_start */
-.footer{
+.footer {
   background-color: #3e8da8;
   width: 100%;
   color: #fff;
 }
-a{
+a {
   text-decoration: none;
 }
-.footer_p{
+.footer_p {
   text-align: justify;
   color: #fff;
   margin-right: 25px;
   font-size: 16px;
 }
-.footer h5{
+.footer h5 {
   font-size: 16px;
 }
-.footer_item{
+.footer_item {
   color: #fff;
   font-size: 18px;
   font-weight: 700;
 }
-.footer_item:hover{
+.footer_item:hover {
   color: #fff;
+}
+.footer_service li{
+  padding: 4px;
 }
 /* footer_end */
 
-@media screen and (max-width:767px){
+
+
+
+
+/* career_parts */
+
+
+@media screen and (max-width: 767px) {
   /* banner */
-  .banner{
+  .banner {
     background-position: center;
     height: 70vh;
   }
-  .banner_msg{
+  .banner_msg {
     font-size: 28px;
     letter-spacing: 2px;
     line-height: 40px;
     text-align: center;
     margin-right: -11px;
-    
   }
-  .bannerMSG{
+  .bannerMSG {
     height: 75vh;
   }
   /* banner */
-  .videoclient{
+  .videoclient {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  
   }
 
-
-  .footer .top{
+  .footer .top {
     margin-top: 20px;
+  }
 }
 
- 
- 
-}
-
-@media screen and (min-width:768px) and (max-width:991px){
+@media screen and (min-width: 768px) and (max-width: 991px) {
   /* banner */
-  .banner{
+  .banner {
     background-position: center;
     height: 70vh;
   }
-  .banner_msg{
-    font-size:34px;
+  .banner_msg {
+    font-size: 34px;
     letter-spacing: 2px;
     line-height: 52px;
     text-align: center;
     margin-left: 35px;
-   
   }
-  .bannerMSG{
+  .bannerMSG {
     height: 75vh;
   }
   /* banner */
 
-  .hero p{
+  .hero p {
     font-size: 15px;
   }
 
-
-  .videoclient{
+  .videoclient {
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  
   }
-  .tabclient{
+  .tabclient {
     font-size: 32px;
   }
 
-  .footer{
+  .footer {
     margin-top: 30px;
-}
-.footer .top{
+  }
+  .footer .top {
     margin-top: 20px;
+  }
 }
-}
-
-
-
-
-
-
-

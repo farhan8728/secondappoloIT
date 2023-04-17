@@ -40,17 +40,8 @@ jsArrow.onclick = function () {
 };
 
 
-$(".counter").counterUp({
-  delay: 10,
-  time: 1000,
-});
 
-//Typed_JS
 
-//Typed_JS
 
-//Counter_UP
-
-//Counter_UP
 
 

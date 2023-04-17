@@ -94,10 +94,10 @@
             </li>
 
 
-            <li><a href="#">Case Studies</a></li>
-            <li><a href="#">Career</a></li>
+            <!-- <li><a href="#">Case Studies</a></li> -->
+            <li><a href="./career.html">Career</a></li>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#footer">Contact Us</a></li>
           </ul>
         </div>
         <div class="search-box" id="search-box">
@@ -249,6 +249,9 @@
   </section>
   <!-- key_client -->
 
+
+  
+
   <!-- best Service -->
   <section data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
     <div class="container">
@@ -293,7 +296,7 @@
 
 
   <!-- footer -->
-  <section class="footer" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+  <section class="footer" id="footer" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
     <div class="container">
       <div class="row pt-4 pb-4">
 
@@ -311,11 +314,13 @@
 
         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
           <h2 class="services">Services</h2>
-          <h5 class="mt-3">IT Services</h5>
-          <h5 class="">UI/UX Design</h5>
-          <h5 class="">Web Design</h5>
-          <h5 class="">Web Development</h5>
-          <h5 class="">Digital Marketng</h5>
+          <ul class="footer_service">
+            <li>IT Services</li>
+            <li>UI/UX Design</li>
+            <li>Web Design</li>
+            <li>Web Development</li>
+            <li>Digital Marketng</li>
+          </ul>
         </div>
 
         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
@@ -330,9 +335,9 @@
         <div class="col-12 col-sm-12 col-md-6 col-lg-3">
           <h2 class="top">Get In Touch</h2>
           <h5 class="mt-3">Tel: 02-xxyyzz</h5>
-          <h5>Mob: 017.....(Reception)</h5>
-          <h5>Mob: 017.....(Marketing & Sales)</h5>
-          <h5>Mob: 017.....(Hr)</h5>
+          <h5>Mob: 01796656559 (BD Office)</h5>
+          <h5>Mob: +61 423742589 (Marketing & Sales)</h5>
+          <h5>Mob: +61 480470863 (Hr)</h5>
           <h5>Email:sales@appoloit.com</h5>
           <h5>Email:career@appoloit.com</h5>
 
@@ -406,6 +411,12 @@
     // aos
     AOS.init();
     // aos
+
+
+    $(".counter").counterUp({
+    delay: 10,
+    time: 5000,
+    });
   </script>
 
 
